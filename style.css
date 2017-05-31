@@ -1,0 +1,412 @@
+body{
+
+	font-family: arial, sans-serif;
+    text-align: center;
+}
+#Glavni-izbornik {
+	width:100%;
+    height: 550px;
+    
+
+}
+
+
+#izbornik-lista {
+	height: 100px;
+	width: 640px;
+	background: #1386ce;
+	margin-left: auto;
+	margin-right: auto;
+    margin-top: 200px;
+    
+
+}
+#izbornik-lista ul li{
+	list-style: none;
+	display: inline;
+	font-weight: bold;
+	padding: 10px;
+	
+}
+#izbornik-lista a{
+	color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+#izbornik-lista ul li:hover{
+	background: #70614a;
+	transition:all 0.45s;
+	opacity: 0.9;
+    filter:alpha (opacity=90);
+}
+.p1{
+	position: absolute;
+	top: 245px;
+	bottom: 300px;
+	right: 200px;
+	left: 200px;
+	font-family: serif;
+	font-size: 29px;
+
+	
+
+}
+.p1 a{
+	text-decoration: underline;
+	font-weight: bold;
+	color: black;
+	border-radius: 25px;
+	padding: 10px;
+	font-size: 40px;
+	background-color: #fff;
+	opacity: 0.87;
+}
+.p1 a:hover{
+
+	background: #d1c6b5;
+	transition: all 0.5s;
+}
+
+#footer {
+    background-color: #1386ce;
+    margin-top: 10px;
+    width: 100%;
+    clear:both;
+    border-radius: 5px;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    font-size: 90%;
+    bottom: 0px;
+    position: fixed;
+    margin-bottom: 0px;
+    margin-left: -10px;
+    margin-right:10px;
+
+}
+.logo{
+	opacity:0.9;
+}
+.facebook{
+	position: absolute;
+	top: 18px;
+    left: 1300px;
+	bottom: 100px;
+}
+.facebook:hover{
+	opacity: 0.9;
+
+}
+.h3{
+	background-color: #fff;
+	margin-left: 200px; 
+    margin-right: 200px;
+    opacity: 0.9;
+    padding: 16px;
+    }
+#Popis{
+	background-color: #fff;
+	margin: 50px;
+	padding: 20px;
+	opacity: 0.9;
+
+}
+#Popis a{
+	text-decoration: none;
+	color: black;
+	text-decoration: underline;
+}
+#Popis a:hover{
+	color:#7f7e7f;
+}
+#Popis a:visited {
+    color: #840084;
+}
+#Popis h1{
+	color: #1386ce;
+}
+
+
+.h2{
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    margin-right:200px;
+    margin-left:200px;
+    margin-bottom:20px;
+    color:#1386ce;
+}
+.natrag-o_nama{
+position: absolute;
+	top: 27px;
+    left: 210px;
+	bottom: 100px;
+    
+}
+#izbornik-lista-kontakt {
+	height: 80px;
+	width: 635px;
+	background: #1386ce;
+	margin-left: auto;
+	margin-right: auto;
+    margin-top: 0px;
+    
+
+}
+#izbornik-lista-kontakt ul li{
+	list-style: none;
+	display: inline;
+	font-weight: bold;
+	padding: 10px;
+	
+}
+#izbornik-lista-kontakt a{
+	color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+#izbornik-lista-kontakt ul li:hover{
+	background: #70614a;
+	transition:all 0.45s;
+	opacity: 0.9;
+    filter:alpha (opacity=90);
+}
+#izbornik-lista-kontakt {
+	height: 80px;
+	width: 635px;
+	background: #1386ce;
+	margin-left: auto;
+	margin-right: auto;
+    margin-top: 0px;
+    
+
+}
+#izbornik-lista-nama ul li{
+	list-style: none;
+	display: inline;
+	font-weight: bold;
+	padding: 10px;
+	
+}
+#izbornik-lista-nama a{
+	color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+#izbornik-lista-nama ul li:hover{
+	background: #70614a;
+	transition:all 0.45s;
+	opacity: 0.9;
+    filter:alpha (opacity=90);
+}
+#izbornik-lista-nama {
+	height: 80px;
+	width: 635px;
+	background: #1386ce;
+	margin-left: auto;
+	margin-right: auto;
+    margin-top: 0px;
+    
+
+}
+.video{
+	position: absolute;
+	top: 120px;
+	bottom:30px;
+	right:30px;
+	left:400px;
+}
+#izbornik-lista-rad ul li{
+	list-style: none;
+	display: inline;
+	font-weight: bold;
+	padding: 10px;
+	
+}
+#izbornik-lista-rad a{
+	color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+#izbornik-lista-rad ul li:hover{
+	background: #70614a;
+	transition:all 0.45s;
+	opacity: 0.9;
+    filter:alpha (opacity=90);
+}
+#izbornik-lista-rad {
+	height: 80px;
+	width: 635px;
+	background: #1386ce;
+	margin-left: auto;
+	margin-right: auto;
+    margin-top: 0px;
+    
+
+}
+#izbornik-lista-zanimanja ul li{
+	list-style: none;
+	display: inline;
+	font-weight: bold;
+	padding: 10px;
+	
+}
+#izbornik-lista-zanimanja a{
+	color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+#izbornik-lista-zanimanja ul li:hover{
+	background: #70614a;
+	transition:all 0.45s;
+	opacity: 0.9;
+    filter:alpha (opacity=90);
+}
+#izbornik-lista-zanimanja {
+	height: 80px;
+	width: 635px;
+	background: #1386ce;
+	margin-left: auto;
+	margin-right: auto;
+    margin-top: 0px;
+    
+
+}
+#Zanimanja{
+	background-color: #fff;
+	font-size: 30px;
+	padding: 20px;
+	margin: 20px;
+	display: underline;
+	opacity: 0.8;
+	font-size: 25px;
+}
+#Zanimanja ul{
+	list-style: none;
+}
+#Zanimanja ul li a{
+	display: underline;
+	color: #000;
+}
+#Zanimanja ul li a:hover{
+	color: #7f7e7f;
+}
+#tehgim{
+	background-color: #fff;
+	color: #000;
+	opacity: 0.8;
+	font-size: 25px;
+}
+#tehgim ul{
+	list-style: none;
+}
+#tehgim a{
+	color: black;
+
+}
+#tehgim a:hover{
+	color: #7f7e7f;
+}
+#tehgim a:visited{
+	color: #840084;
+}
+#racunalac{
+	background-color: #fff;
+	color: #000;
+	opacity: 0.8;
+    padding: 23px;
+    font-size: 25px;
+}
+#racunalac ul{
+list-style: none;
+}
+#racunalac a{
+color: #000;
+
+}
+#racunalac a:hover{
+	color: #7f7e7f;
+}
+#racunalac a:visited{
+	color: #840084;
+}
+#lista-promet{
+	background-color: #fff;
+	opacity: 0.8;
+    padding: 20px;
+    font-size: 25px;
+}
+#lista-promet ul {
+           list-style: none;
+}
+#lista-promet ul a{
+	color: #000;
+	padding: 5px;
+}
+#lista-promet a:hover{
+	color: #7f7e7f;
+}    
+#lista-prometnik{
+	background-color: #fff;
+	opacity: 0.8;
+    padding: 20px;
+    font-size: 25px;
+}
+#lista-prometnik ul{
+	list-style: none;
+}	
+#lista-prometnik a{
+ color: #000;
+}  
+#lista-prometnik a:hover{
+color: #7f7e7f;
+}
+#Lista-strojovođa{
+	background-color: #fff;
+	opacity: 0.8;
+    padding: 20px;
+    font-size: 25px;
+}
+#Lista-strojovođa ul{
+	list-style: none;
+}
+#Lista-strojovođa a{
+	color: #000;
+}
+#Lista-strojovođa a:hover{
+	color: #7f7e7f;
+}
+#Lista-kondukter{
+	background-color: #fff;
+	opacity: 0.8;
+    padding: 20px;
+    font-size: 25px;
+}
+#Lista-kondukter ul{
+	list-style: none;
+}
+#Lista-kondukter a{
+	color: #000;
+}
+#Lista-kondukter a:hover{
+	color: #7f7e7f;
+}
+#Lista-špedicija{
+	background-color: #fff;
+	opacity: 0.8;
+    padding: 23px;
+    font-size: 25px;
+
+}
+#Lista-špedicija ul{
+	list-style: none;
+
+}
+#Lista-špedicija a{
+	color: #000;
+
+}
+#Lista-špedicija a:hover{
+	color: #7f7e7f;
+}
+
